@@ -23,7 +23,7 @@ Ja! Wir haben den Original-Python-Code von `GradientHQ/parallax v0.1.2` direkt g
 
 ### F3: Wie ergänzen sich `NALA-Strata-RS` und `NALA-Parallax-RS`?
 - **`NALA-Strata-RS`** holt auf **einem einzelnen Rechner** mit kleiner Grafikkarte (`6 GB – 24 GB VRAM`) das Maximum heraus, indem es `VRAM + System-RAM + NVMe SSD` zusammenschaltet.
-- **`NALA-Parallax-RS`** verbindet **mehrere Rechner über das Netzwerk** (Pipeline-Parallelismus), sodass z. B. MacBook Pro + Beelink Ryzen AI Max+ + Dual-Blackwell-Server gemeinsam ein `235B`- oder `685B`-Modell berechnen.
+- **`NALA-Parallax-RS`** verbindet **mehrere Rechner über das Netzwerk** (Pipeline-Parallelismus), sodass z. B. MacBook Pro + AMD Strix Halo UMA Node Ryzen AI Max+ + Dual-Blackwell-Server gemeinsam ein `235B`- oder `685B`-Modell berechnen.
 - **Kombiniert:** Jeder einzelne Knoten nutzt intern `Strata-RS` für optimale Speicherauslastung und spricht nach aussen über `Parallax-RS` mit dem Cluster!
 
 ### F4: Welche Sicherheitsprobleme im Original wurden behoben?
