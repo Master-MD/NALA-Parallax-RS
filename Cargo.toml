@@ -1,14 +1,18 @@
 [package]
 name = "nala-parallax-rs"
-version = "0.1.2-nala.6.6.6"
+version = "0.2.0-nala.6.6.6"
 edition = "2024"
-authors = ["NALA-OS Open-Source Engineering", "Gradient Network (Original Python Parallax)"]
+authors = ["NALA-OS Open-Source Engineering", "Gradient Network (Original Python Parallax & C++ parallax_win_cli)"]
 license = "Apache-2.0"
-description = "100% Native Rust-Turbo (Edition 2024, Zero-Python) Distributed Pipeline-Parallel LLM Serving, Water-Filling & DP Layer Allocator, Roofline Request Router, Lock-Free Arena Radix Cache & Zero-Copy P2P Activation Engine"
+description = "100% Native Rust-Turbo (Edition 2024, Zero-Python, Zero-Telemetry) Distributed Pipeline-Parallel LLM Serving, Hybrid Strata 3-Tier x Parallax Water-Filling 4D Sharding (RSI-PRLX-01), Speculative 64B Zero-Copy P2P Framing (RSI-PRLX-02), Sub-ms RTT Auto-Failover (RSI-PRLX-03) & Native Windows/Cross-OS CLI (parallax_win_cli port)"
 repository = "https://github.com/Master-MD/NALA-Parallax-RS"
 
 [[bin]]
 name = "nala-parallax-rs"
+path = "src/main.rs"
+
+[[bin]]
+name = "nala-parallax-win-cli"
 path = "src/main.rs"
 
 [profile.release]
