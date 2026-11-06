@@ -1,0 +1,19 @@
+[package]
+name = "nala-parallax-rs"
+version = "0.1.2-nala.6.6.6"
+edition = "2024"
+authors = ["NALA-OS Open-Source Engineering", "Gradient Network (Original Python Parallax)"]
+license = "Apache-2.0"
+description = "100% Native Rust-Turbo (Edition 2024, Zero-Python) Distributed Pipeline-Parallel LLM Serving, Water-Filling & DP Layer Allocator, Roofline Request Router, Lock-Free Arena Radix Cache & Zero-Copy P2P Activation Engine"
+repository = "https://github.com/Master-MD/NALA-Parallax-RS"
+
+[[bin]]
+name = "nala-parallax-rs"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
