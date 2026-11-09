@@ -1,5 +1,5 @@
 # ============================================================================
-# 🦀 NALA-Parallax-RS (v0.6.0-nala.6.6.6) — 5-Language Windows PowerShell Installer
+# 🦀 NALA-Parallax-RS (v0.7.0-nala.6.6.6) — 5-Language Windows PowerShell Installer
 # ============================================================================
 #   irm https://github.com/Master-MD/NALA-Parallax-RS/releases/latest/download/install.ps1 | iex
 # ============================================================================
@@ -7,7 +7,7 @@ $ErrorActionPreference = 'Stop'
 $Feed = if ($env:PARALLAX_FEED) { $env:PARALLAX_FEED.TrimEnd('/') } else { 'https://github.com/Master-MD/NALA-Parallax-RS/releases/latest/download' }
 $DataDir = if ($env:PARALLAX_DATA_DIR) { $env:PARALLAX_DATA_DIR } else { Join-Path $env:LOCALAPPDATA 'Parallax' }
 
-Write-Host "🦀 Installing NALA-Parallax-RS v0.6.0-nala.6.6.6 (100% Native Rust-Turbo, Zero-Python, Zero-Telemetry / DE•FR•IT•RM•EN)..." -ForegroundColor Cyan
+Write-Host "🦀 Installing NALA-Parallax-RS v0.7.0-nala.6.6.6 (100% Native Rust-Turbo, Zero-Python, Zero-Telemetry / DE•FR•IT•RM•EN)..." -ForegroundColor Cyan
 
 $TmpDir = Join-Path ([System.IO.Path]::GetTempPath()) ("nala_parallax_" + [Guid]::NewGuid().ToString("N"))
 New-Item -ItemType Directory -Force -Path $TmpDir | Out-Null

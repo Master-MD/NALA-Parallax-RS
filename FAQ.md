@@ -1,4 +1,4 @@
-# ❓ FAQ — NALA-Parallax-RS (`v0.6.0-nala.6.6.6`) in 5 Languages (`DE / FR / IT / RM / EN`)
+# ❓ FAQ — NALA-Parallax-RS (`v0.7.0-nala.6.6.6`) in 5 Languages (`DE / FR / IT / RM / EN`)
 
 ---
 

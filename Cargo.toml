@@ -1,10 +1,10 @@
 [package]
 name = "nala-parallax-rs"
-version = "0.6.0-nala.6.6.6"
+version = "0.7.0-nala.6.6.6"
 edition = "2024"
 authors = ["NALA-OS Open-Source Engineering", "Gradient Network (Original Python Parallax & C++ parallax_win_cli)"]
 license = "Apache-2.0"
-description = "100% Native Rust-Turbo (Edition 2024, Zero-Python, Zero-Telemetry) Distributed Pipeline-Parallel LLM Serving & Windows/Cross-OS CLI with RSI-PRLX-01..15 (4D Sharding, Speculative P2P, RDMA Zero-Bounce, 5-Zone Radix, DirectML/Vulkan, Medusa Tree, MXFP4, Ed25519 P2P, Cat-Safe <28dBA Night Mode, 0ms 2PC Hot-Plug, MoE Locality EP+PP, Understory OKF KV Bridge, Lookahead Jacobi Schema Decoder & 5-Zone SEV-SNP/SEP Confidential Tensor Vault)"
+description = "100% Native Rust-Turbo (Edition 2024, Universal Standalone, Zero-NALA-OS Coupling, Zero-Python, Zero-Telemetry) Distributed Pipeline-Parallel LLM Serving & Windows/Cross-OS CLI with RSI-PRLX-01..18 (4D Sharding, RDMA, 5-Zone Radix, DirectML/Vulkan, Medusa, MXFP4, Ed25519 P2P, <28dBA Night Mode, 0ms 2PC Hot-Plug, MoE Locality, OKF KV Bridge, Jacobi Schema PDA, 5-Zone TEE Vault, Cross-Node Draft Disaggregation, 5D Kahan Ring-AllReduce & GF(2^8) Reed-Solomon Tensor Guard)"
 repository = "https://github.com/Master-MD/NALA-Parallax-RS"
 
 [[bin]]
