@@ -4,4 +4,4 @@ version = 4
 
 [[package]]
 name = "nala-parallax-rs"
-version = "0.7.0-nala.6.6.6"
+version = "0.8.0-nala.6.6.6"

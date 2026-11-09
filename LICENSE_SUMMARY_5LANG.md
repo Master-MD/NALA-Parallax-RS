@@ -1,4 +1,4 @@
-# 📜 LICENSE SUMMARY IN 5 LANGUAGES (`Apache-2.0`) — NALA-Parallax-RS (`v0.7.0-nala.6.6.6`)
+# 📜 LICENSE SUMMARY IN 5 LANGUAGES (`Apache-2.0`) — NALA-Parallax-RS (`v0.8.0-nala.6.6.6`)
 
 Full legal license text: **[`LICENSE`](./LICENSE)** (`Apache License, Version 2.0, January 2004`).
 

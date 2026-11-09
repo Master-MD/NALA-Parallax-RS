@@ -1,4 +1,4 @@
-# 🪨 CAVEMAN GUIDE — NALA-Parallax-RS (`v0.7.0-nala.6.6.6`)
+# 🪨 CAVEMAN GUIDE — NALA-Parallax-RS (`v0.8.0-nala.6.6.6`)
 **(DE • FR • IT • RM • EN — So einfach, dass es jeder in 10 Sekunden starten kann!)**
 
 ---

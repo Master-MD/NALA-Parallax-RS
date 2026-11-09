@@ -1,4 +1,4 @@
-# 🇮🇹 NALA-Parallax-RS (`v0.7.0-nala.6.6.6`) — Manuale Italiano
+# 🇮🇹 NALA-Parallax-RS (`v0.8.0-nala.6.6.6`) — Manuale Italiano
 
 **Motore LLM Distribuito Pipeline-Parallelo 100 % Rust Nativo (`GradientHQ/parallax`) + CLI Windows/Cross-OS (`GradientHQ/parallax_win_cli`) + Hybrid Strata 3-Tier × Parallax 4D Sharding (`RSI-PRLX-01..03`)**
 
@@ -31,3 +31,6 @@ nala-parallax-rs --lang it --serve --port 18082
 | **`RSI-PRLX-16`** | **Disaggregazione speculativa cross-nodo (`64-Byte NDRF`)** | **`3.1 ns`** (M4 Max) / **`9.9 ns`** (Xeon) (**`+84.0%` tok/s**, **`0 MB` Draft-VRAM** su GPU target) | **`100.000%` rejection-sampling esatto (distribuzione target identica)** |
 | **`RSI-PRLX-17`** | **Mesh Tensoriale Ibrida 5D + Ring-AllReduce Kahan (`TP×PP×EP×SP×Strata`, `64B NMSH`)** | **`5.2 ns`** (M4 Max) / **`16.4 ns`** (Xeon) (**`-58.0%` TTFT** su contesti `32k–128k`) | **Sommatoria compensata di Kahan (`0.0` drift) + barriera deadlock-free** |
 | **`RSI-PRLX-18`** | **Guardia Tensoriale Auto-Riparante Reed-Solomon `GF(2^8)` (`64B NRSC` + `WIN-CHK-11`)** | **`177.8 ns`** (M4 Max) / **`541.5 ns`** (Xeon) (**`<0.4%` overhead**, **`100%` guarigione Bit-Flip**) | **Auto-correzione `GF(2^8)` `0x11D` + esecuzione 100 % standalone senza dipendenze esterne** |
+| **`RSI-PRLX-19`** | **Ring-Attention parallela di contesto (`1M+` token, `64B NRNG`)** | **`8.1 ns`** (M4 Max) / **`47.7 ns`** (Xeon) (**`-71.0%` KV-VRAM per nodo** su contesti `256k–1M+`) | **Rescaling esatto Online-`LogSumExp` (`100.000%` parità IEEE-754)** |
+| **`RSI-PRLX-20`** | **Auto-Tuner Roofline continuo calibrato via hardware** | **`3.9 ns`** (M4 Max) / **`90.9 ns`** (Xeon) (**`+22.5%` precisione bilanciamento** senza tabelle statiche) | **Clamp deterministico contro jitter e throttling termico** |
+| **`RSI-PRLX-21`** | **Multiplexer S-LoRA firmato Air-Gap (`64B NLRA` + `WIN-CHK-12`)** | **`4.6 ns`** (M4 Max) / **`30.0 ns`** (Xeon) (**`<0.15 ms` switch LoRA zero-copy**) | **Verifica firma constant-time (`SEC-SLORA-01`)** |

@@ -1,6 +1,6 @@
 #!/bin/sh
 # ============================================================================
-# 🦀 NALA-Parallax-RS (v0.7.0-nala.6.6.6) — 5-Language One-Line Installer (DE/FR/IT/RM/EN)
+# 🦀 NALA-Parallax-RS (v0.8.0-nala.6.6.6) — 5-Language One-Line Installer (DE/FR/IT/RM/EN)
 # Linux (x86_64 & ARM64 NVIDIA DGX Spark) & macOS (Apple Silicon M1-M5 & Intel)
 # ============================================================================
 #   curl -fsSL https://github.com/Master-MD/NALA-Parallax-RS/releases/latest/download/install.sh -o install.sh && sh install.sh

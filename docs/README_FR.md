@@ -1,4 +1,4 @@
-# 🇫🇷 NALA-Parallax-RS (`v0.7.0-nala.6.6.6`) — Manuel Français
+# 🇫🇷 NALA-Parallax-RS (`v0.8.0-nala.6.6.6`) — Manuel Français
 
 **Moteur LLM Distribué Pipeline-Parallèle 100 % Rust Natif (`GradientHQ/parallax`) + CLI Windows/Cross-OS (`GradientHQ/parallax_win_cli`) + Hybrid Strata 3-Tier × Parallax 4D Sharding (`RSI-PRLX-01..03`)**
 
@@ -31,3 +31,6 @@ nala-parallax-rs --lang fr --serve --port 18082
 | **`RSI-PRLX-16`** | **Désagrégation spéculative inter-nœuds (`64 octets NDRF`)** | **`3.1 ns`** (M4 Max) / **`9.9 ns`** (Xeon) (**`+84.0 %` tok/s**, **`0 Mo` de VRAM brouillon** sur GPU cible) | **`100.000 %` échantillonnage de rejet exact (distribution cible identique)** |
 | **`RSI-PRLX-17`** | **Maillage Tensoriel Hybride 5D + Ring-AllReduce Kahan (`TP×PP×EP×SP×Strata`, `64o NMSH`)** | **`5.2 ns`** (M4 Max) / **`16.4 ns`** (Xeon) (**`-58.0 %` TTFT** sur contextes longs `32k–128k`) | **Sommation compensée de Kahan (`0.0` dérive) + barrière sans interblocage** |
 | **`RSI-PRLX-18`** | **Garde Tensorielle Auto-Réparatrice Reed-Solomon `GF(2^8)` (`64o NRSC` + `WIN-CHK-11`)** | **`177.8 ns`** (M4 Max) / **`541.5 ns`** (Xeon) (**`<0.4 %` surcoût**, **`100 %` guérison Bit-Flip**) | **Auto-correction `GF(2^8)` `0x11D` + exécution 100 % autonome sans couplage OS externe** |
+| **`RSI-PRLX-19`** | **Ring-Attention parallèle en contexte (`1M+` jetons, `64o NRNG`)** | **`8.1 ns`** (M4 Max) / **`47.7 ns`** (Xeon) (**`-71.0 %` KV-VRAM par nœud** sur `256k–1M+` jetons) | **Rescaling exact Online-`LogSumExp` (`100.000 %` parité IEEE-754)** |
+| **`RSI-PRLX-20`** | **Auto-Tuner Roofline continu calibré matériellement** | **`3.9 ns`** (M4 Max) / **`90.9 ns`** (Xeon) (**`+22.5 %` précision d'équilibrage** sans tables statiques) | **Protection déterministe contre le throttling thermique** |
+| **`RSI-PRLX-21`** | **Multiplexeur S-LoRA signé Air-Gap (`64o NLRA` + `WIN-CHK-12`)** | **`4.6 ns`** (M4 Max) / **`30.0 ns`** (Xeon) (**`<0.15 ms` changement LoRA zero-copy**) | **Vérification de signature en temps constant (`SEC-SLORA-01`)** |

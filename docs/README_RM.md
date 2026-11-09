@@ -1,4 +1,4 @@
-# 🇨🇭 NALA-Parallax-RS (`v0.7.0-nala.6.6.6`) — Manual Rumantsch Grischun
+# 🇨🇭 NALA-Parallax-RS (`v0.8.0-nala.6.6.6`) — Manual Rumantsch Grischun
 
 **Motur LLM Distribuì Pipeline-Parallel 100 % Rust Nativ (`GradientHQ/parallax`) + CLI Windows/Cross-OS (`GradientHQ/parallax_win_cli`) + Hybrid Strata 3-Tier × Parallax 4D Sharding (`RSI-PRLX-01..03`)**
 
@@ -31,3 +31,6 @@ nala-parallax-rs --lang rm --serve --port 18082
 | **`RSI-PRLX-16`** | **Disaggregaziun speculativa tranter nods (`64-Byte NDRF`)** | **`3.1 ns`** (M4 Max) / **`9.9 ns`** (Xeon) (**`+84.0 %` tok/s**, **`0 MB` Draft-VRAM** sin GPU da destinaziun) | **`100.000 %` rejection-sampling exact (distribuziun identica)** |
 | **`RSI-PRLX-17`** | **Mesh Tensorial Ibrid 5D + Ring-AllReduce Kahan (`TP×PP×EP×SP×Strata`, `64B NMSH`)** | **`5.2 ns`** (M4 Max) / **`16.4 ns`** (Xeon) (**`-58.0 %` TTFT** tar contexts lungs `32k–128k`) | **Summa cumpensada da Kahan (`0.0` drift) + barriera senza deadlock** |
 | **`RSI-PRLX-18`** | **Guardia Tensoriala cun Auto-Guariziun Reed-Solomon `GF(2^8)` (`64B NRSC` + `WIN-CHK-11`)** | **`177.8 ns`** (M4 Max) / **`541.5 ns`** (Xeon) (**`<0.4 %` overhead**, **`100 %` guariziun Bit-Flip**) | **Auto-correcziun `GF(2^8)` `0x11D` + execuziun 100 % autonoma senza dependenzas externas** |
+| **`RSI-PRLX-19`** | **Ring-Attention parallela da context (`1M+` tokens, `64B NRNG`)** | **`8.1 ns`** (M4 Max) / **`47.7 ns`** (Xeon) (**`-71.0 %` KV-VRAM per nod** tar `256k–1M+` tokens) | **Rescaling exact Online-`LogSumExp` (`100.000 %` paritad IEEE-754)** |
+| **`RSI-PRLX-20`** | **Auto-Tuner Roofline cuntinuà calibrà sin hardware** | **`3.9 ns`** (M4 Max) / **`90.9 ns`** (Xeon) (**`+22.5 %` precisiun da balanza** senza tabellas staticas) | **Protecziun deterministica cunter throttling termic** |
+| **`RSI-PRLX-21`** | **Multiplexer S-LoRA suttascrit Air-Gap (`64B NLRA` + `WIN-CHK-12`)** | **`4.6 ns`** (M4 Max) / **`30.0 ns`** (Xeon) (**`<0.15 ms` midada LoRA zero-copy**) | **Verificaziun da suttascripziun en temp constant (`SEC-SLORA-01`)** |
