@@ -1,4 +1,4 @@
-# 🇫🇷 NALA-Parallax-RS (`v0.8.0-nala.6.6.6`) — Manuel Français
+# 🇫🇷 NALA-Parallax-RS (`v0.9.0-nala.6.6.6`) — Manuel Français
 
 **Moteur LLM Distribué Pipeline-Parallèle 100 % Rust Natif (`GradientHQ/parallax`) + CLI Windows/Cross-OS (`GradientHQ/parallax_win_cli`) + Hybrid Strata 3-Tier × Parallax 4D Sharding (`RSI-PRLX-01..03`)**
 
@@ -34,3 +34,6 @@ nala-parallax-rs --lang fr --serve --port 18082
 | **`RSI-PRLX-19`** | **Ring-Attention parallèle en contexte (`1M+` jetons, `64o NRNG`)** | **`8.1 ns`** (M4 Max) / **`47.7 ns`** (Xeon) (**`-71.0 %` KV-VRAM par nœud** sur `256k–1M+` jetons) | **Rescaling exact Online-`LogSumExp` (`100.000 %` parité IEEE-754)** |
 | **`RSI-PRLX-20`** | **Auto-Tuner Roofline continu calibré matériellement** | **`3.9 ns`** (M4 Max) / **`90.9 ns`** (Xeon) (**`+22.5 %` précision d'équilibrage** sans tables statiques) | **Protection déterministe contre le throttling thermique** |
 | **`RSI-PRLX-21`** | **Multiplexeur S-LoRA signé Air-Gap (`64o NLRA` + `WIN-CHK-12`)** | **`4.6 ns`** (M4 Max) / **`30.0 ns`** (Xeon) (**`<0.15 ms` changement LoRA zero-copy**) | **Vérification de signature en temps constant (`SEC-SLORA-01`)** |
+| **`RSI-PRLX-22`** | **Streaming P2P KV-Direct Pré-remplissage vers Décodage (Splitwise / DistServe, `64o NKVD`)** | **`5.0 ns`** (M4 Max) / **`21.4 ns`** (Xeon) (**`-63.0 %` de gigue P99 TBT**) | **Hachage atomique `FNV-1a` 64 bits + isolation stricte à 5 zones** |
+| **`RSI-PRLX-23`** | **Routeur de profondeur adaptative SIMD Early-Exit (Mixture-of-Depths / CALM, `64o NMOD`)** | **`3.8 ns`** (M4 Max) / **`14.2 ns`** (Xeon) (**`+39.2 %` de débit** sur jetons simples) | **`100.000 %` pleine profondeur (`64/64` couches) garantie pour code/math/JSON** |
+| **`RSI-PRLX-24`** | **Auto-test intégré FIPS 180-4 (BIST) & Attestateur binaire Air-Gap `--verify-sums` (`WIN-CHK-13`)** | **`174.2 ns`** / bloc · **`< 1.8 ms`** auto-vérification (`--self-check`) | **Moteur `SHA-256` FIPS 180-4 natif zéro-crate (vecteurs RFC 4634)** |

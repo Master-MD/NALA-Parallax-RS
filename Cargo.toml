@@ -1,10 +1,10 @@
 [package]
 name = "nala-parallax-rs"
-version = "0.8.0-nala.6.6.6"
+version = "0.9.0-nala.6.6.6"
 edition = "2024"
 authors = ["NALA-OS Open-Source Engineering", "Gradient Network (Original Python Parallax & C++ parallax_win_cli)"]
 license = "Apache-2.0"
-description = "100% Native Rust-Turbo (Edition 2024, Universal Standalone, Zero-NALA-OS Coupling, Zero-Python, Zero-Telemetry) Distributed Pipeline-Parallel LLM Serving & Windows/Cross-OS CLI with RSI-PRLX-01..21 (4D Sharding, RDMA, 5-Zone Radix, DirectML/Vulkan, Medusa, MXFP4, Ed25519 P2P, <28dBA Night Mode, 0ms 2PC Hot-Plug, MoE Locality, OKF KV Bridge, Jacobi Schema PDA, 5-Zone TEE Vault, Draft Disaggregation, 5D Kahan Mesh, GF(2^8) Reed-Solomon Guard, 1M+ Context Ring-Attention, Continuous Roofline Auto-Tuner & Signed S-LoRA Hot-Multiplexer)"
+description = "100% Native Rust-Turbo (Edition 2024, Universal Standalone, Zero-NALA-OS Coupling, Zero-Python, Zero-Telemetry) Distributed Pipeline-Parallel LLM Serving & Windows/Cross-OS CLI with RSI-PRLX-01..24 (4D Sharding, RDMA, 5-Zone Radix, DirectML/Vulkan, Medusa, MXFP4, Ed25519 P2P, <28dBA Night Mode, 0ms 2PC Hot-Plug, MoE Locality, OKF KV Bridge, Jacobi Schema PDA, 5-Zone TEE Vault, Draft Disaggregation, 5D Kahan Mesh, GF(2^8) Reed-Solomon Guard, 1M+ Context Ring-Attention, Continuous Roofline Auto-Tuner, Signed S-LoRA Hot-Multiplexer, Splitwise/DistServe KV-Direct Streaming, CALM/MoD Adaptive Depth Router & FIPS 180-4 SHA-256 BIST Air-Gap Binary Attestor)"
 repository = "https://github.com/Master-MD/NALA-Parallax-RS"
 
 [[bin]]

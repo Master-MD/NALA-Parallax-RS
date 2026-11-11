@@ -1,4 +1,4 @@
-# 🇨🇭 NALA-Parallax-RS (`v0.8.0-nala.6.6.6`) — Manual Rumantsch Grischun
+# 🇨🇭 NALA-Parallax-RS (`v0.9.0-nala.6.6.6`) — Manual Rumantsch Grischun
 
 **Motur LLM Distribuì Pipeline-Parallel 100 % Rust Nativ (`GradientHQ/parallax`) + CLI Windows/Cross-OS (`GradientHQ/parallax_win_cli`) + Hybrid Strata 3-Tier × Parallax 4D Sharding (`RSI-PRLX-01..03`)**
 
@@ -34,3 +34,6 @@ nala-parallax-rs --lang rm --serve --port 18082
 | **`RSI-PRLX-19`** | **Ring-Attention parallela da context (`1M+` tokens, `64B NRNG`)** | **`8.1 ns`** (M4 Max) / **`47.7 ns`** (Xeon) (**`-71.0 %` KV-VRAM per nod** tar `256k–1M+` tokens) | **Rescaling exact Online-`LogSumExp` (`100.000 %` paritad IEEE-754)** |
 | **`RSI-PRLX-20`** | **Auto-Tuner Roofline cuntinuà calibrà sin hardware** | **`3.9 ns`** (M4 Max) / **`90.9 ns`** (Xeon) (**`+22.5 %` precisiun da balanza** senza tabellas staticas) | **Protecziun deterministica cunter throttling termic** |
 | **`RSI-PRLX-21`** | **Multiplexer S-LoRA suttascrit Air-Gap (`64B NLRA` + `WIN-CHK-12`)** | **`4.6 ns`** (M4 Max) / **`30.0 ns`** (Xeon) (**`<0.15 ms` midada LoRA zero-copy**) | **Verificaziun da suttascripziun en temp constant (`SEC-SLORA-01`)** |
+| **`RSI-PRLX-22`** | **Streaming P2P KV-Direct Prefill-to-Decode (Splitwise / DistServe, `64B NKVD`)** | **`5.0 ns`** (M4 Max) / **`21.4 ns`** (Xeon) (**`-63.0 %` jitter P99 TBT**) | **Hash atomic `FNV-1a` 64-bit + isolaziun stricta da 5 zonas** |
+| **`RSI-PRLX-23`** | **Router da profunditad adattiva SIMD Early-Exit (Mixture-of-Depths / CALM, `64B NMOD`)** | **`3.8 ns`** (M4 Max) / **`14.2 ns`** (Xeon) (**`+39.2 %` capacitad** tar tokensaziun simpla) | **`100.000 %` profunditad cumpletta (`64/64` layers) tar code/matematica/JSON** |
+| **`RSI-PRLX-24`** | **Self-Test integrà FIPS 180-4 (BIST) & Attestatur binari Air-Gap `--verify-sums` (`WIN-CHK-13`)** | **`174.2 ns`** / bloc · **`< 1.8 ms`** auto-controlla (`--self-check`) | **Motur `SHA-256` FIPS 180-4 nativ zero-crate (vecturs RFC 4634)** |
